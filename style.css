@@ -1,0 +1,2144 @@
+/* *{
+    padding: 0!important;
+    margin: 0!important;
+} */
+
+h2,h3,p,li{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.header{
+    padding:15px 110px !important;
+}
+.header .dropdown-toggle{
+    color: black;
+
+}
+.header .list-unstyled a{
+    color: black;
+
+}
+ .dropdown-item{
+    color: white !important;
+
+}
+
+.header li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (max-width:800px){
+    .header {
+        padding: 8px 8px!important;
+    }
+}
+
+@media screen and (max-width:320px){
+   .PhoEmail{
+        text-align: center;
+   }
+   .myacc{
+    padding-left:10px !important;
+   }
+}
+
+
+/*/////////////---------navbar---------\\\\\\\\\\\\*/
+
+.navbar {
+/*    padding:18px 100px 18px 100px !important;*/
+    padding: 20px 0 !important;
+}
+.navbar-collapse{
+    width: 100% !important;
+}
+
+.navbar li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.navbar .navbar-nav li .nav-link{
+    color: black !important;
+}
+.dropdown-item .alert{
+    color: white !important;
+}
+.navbar-nav .nav-item a:hover{
+    color: red !important;
+}
+
+.navbar .nav-item i{
+    font-size: 20px;
+    /* color: ; */
+}
+.heart .dropdown-menu[data-bs-popper]{
+    left: -130px !important;
+}
+
+.navbar .nav-item button:hover{
+    background-color: red !important;
+    color: white
+
+}
+
+
+
+.dropproduct.dropdown-menu[data-bs-popper]{
+    /* left:700px !important; */
+    /* right: 0 !important; */
+}
+
+
+.navbar .dropdown-item:hover{
+    background-color: transparent !important;
+}
+
+@media screen and (max-width:800px){
+    .navbar{
+        padding:10 0 !important;
+
+    }
+    
+
+}
+
+/* @media screen and (max-width:320px){
+   
+} */
+
+
+
+/*/////////////---------section 1---------\\\\\\\\\\\\*/
+
+.section1 .carousel-caption{
+    top:250px;
+    left:250px !important;
+}
+
+.section1 .carousel-indicators{
+    bottom: 10px !important;
+}
+.section1 .carousel-indicators [data-bs-target]{
+
+    height: 10px !important;
+    width: 10px !important;
+    /* outline: 1px solid red!important;
+    outline-offset:2px; */
+    /* border: 1px solid black !important; */
+    /* margin-top:15px !important; */
+    
+}
+.section1 .carousel-indicators [data-bs-target].active{
+    background-color: red!important;
+}
+.section1 .carousel-indicators button{
+    height: 10px !important;
+    outline: 1px solid red;
+    outline-offset: 2px ;
+    border: none !important;
+}
+/* .section1 .caroindbutton{
+    border: 1px solid black !important;
+    padding: 0px 8px!important;
+    margin-top: 10px !important;
+    height: 13px;
+    width: 10px;
+
+} */
+
+.section1 .carousel-caption .carotext{
+    background-color: rgba(255, 255, 255,0.8);
+    padding: 60px 0px!important;
+    line-height: 70px;
+    color: black;
+    width: 900px;
+  
+}
+
+.section1 .carousel-caption .carotext h2{
+    font-weight: 700;
+    font-size: 30px !important;
+}
+.section1 .carousel-caption .carotext p{
+    font-size: 14px;
+}
+
+.section1 .carousel-caption .btn{
+    padding: 13px 40px !important;
+    background-color: rgb(237,72,54);
+    color: white;
+    border-radius:0 !important;
+}
+.section1 .carousel-caption .btn:hover {
+    background-color: white;
+    border-color: rgb(237,72,54) !important;
+    color: black;
+
+}
+
+
+
+@media screen and (max-width:800px){
+    .section1  .carousel-caption{
+        top:50px;
+        left:60px !important;
+    }
+
+    .section1 .carousel-caption .carotext{
+        padding: 20px 0px!important;
+        line-height: 30px;  
+        width: 630px;
+       
+    }
+    .section1 .carousel-caption .carotext p{
+        width: 500px;
+        
+    }
+    
+}
+
+@media screen and (max-width:320px){
+    .section1 .carousel-caption{
+        top:50px;
+        left:60px !important;
+    }
+
+    .section1 .carousel-caption .carotext{
+        padding: 20px 10px!important;
+        line-height: 22px;  
+        width: 220px;
+       
+    }
+    
+    .section1 .carousel img{
+        height:450px ;
+    }
+    .section1 .carousel-caption .carotext h2{
+        margin-right: 0!important;
+      
+        font-size: 18px !important;
+        width: 200px;
+    }
+    .section1 .carousel-caption .carotext p{
+        width: 200px;
+        margin-right: 0!important;
+        
+    }
+    
+}
+
+
+/*/////////////---------section 2---------\\\\\\\\\\\\*/
+
+.section2{
+    /* margin: 50px    !important; */
+    padding: 80px 0;
+}
+
+.sec2_box{
+    margin: 20px !important;
+    padding: 20px 60px !important;
+    border: 1px solid black;
+    border-radius: 10px ;
+    
+}
+
+.section2 .imgbox{
+    overflow: hidden;
+    position: relative;
+}
+.section2 .imgbox img{
+    transition: transform .5s;
+}
+
+.section2 .imgbox:hover img{
+
+        transform: scale(1.2);
+}
+.section2 .sec_2empty{
+    position: absolute;
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    /* opacity: 0; */
+    
+}
+
+.section2 .sec_2empty1{
+    position: absolute;
+    background-color: rgba(255, 255, 255,0.4);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    /* opacity: 0; */
+    transition: transform .5s;
+    transform: translatey(-280px);
+}
+.section2 .sec_2empty2{
+    position: absolute;
+    background-color: rgba(255, 255, 255,0.4);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    /* opacity: 0; */
+    transition: transform .5s;
+    transform: translatey(280px);
+}
+.section2 .imgbox:hover .sec_2empty1{
+    /* opacity: 1; */
+    /* transform: rotatex(180deg); */
+    transform: translatey(0px);
+     
+}
+.section2 .imgbox:hover .sec_2empty2{
+
+    transform: translatey(0px);
+     
+}
+
+.section2 .imgbox button{
+    background-color: rgba(237,72,54,0.7);
+    border: 1px solid rgb(237,72,54);
+    border-radius: 0 !important;
+    color: white;
+    padding: 8px 20px !important;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    /* position: absolute; */
+    margin-top: -50px;
+
+}
+.section2 .sec_2empty button:hover{
+    background-color: rgba(237,72,54,1);
+
+}
+.section2 .sec2_box .carousel button i{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    padding: 8px;
+}
+.section2 .carousel button i:hover{
+    background-color: red;
+    color: white;
+}
+.carousel-control-prev {
+    left: -145px !important;
+    opacity:100% !important;
+}
+
+
+.carousel-control-next {
+    right: -145px !important;
+    opacity:100% !important;
+
+}
+
+@media screen and (max-width:800px){
+    .sec2_box{
+        margin:0px !important;
+        padding:0px !important;
+        border:none;
+        
+    }
+    .carousel-control-prev {
+        left:-35px !important;
+        width: 10% !important;
+
+    }
+    
+    
+    .carousel-control-next {
+        right:-35px !important;
+        width: 10% !important;
+    
+    }
+
+}
+@media screen and (max-width:320px){
+    
+    .carousel-control-prev {
+        left: -10px !important;
+        width: 10% !important;
+
+    }
+    
+    
+    .carousel-control-next {
+        right:-10px !important;
+        width: 10% !important;
+    
+    }
+
+}
+
+
+
+/*/////////////---------section 3---------\\\\\\\\\\\\*/
+.section3{
+    padding-top: 90px !important;
+    padding-bottom: 90px!important ;
+    padding-left: 50px !important;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/1\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* .section3 .container{
+    margin: 50px!important;
+} */
+
+.section3 h2{
+
+        font-size: 55px;
+        font-weight: 500;
+    
+}
+.section3 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.section3 .sec_3box p{
+    /* width: 80px !important; */
+}
+.section3 .sec_3box{
+
+    border: 1PX solid white;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 200px !important;
+    padding-bottom: 10px !important;
+
+}
+
+@media screen and (max-width:800px){
+    .section3{
+        padding-left:0px !important;
+    }
+    .section3 .sec_3box{
+        width: 120px !important;
+    }
+    .section3 .container{
+        padding-left:30px!important;
+
+
+    }
+}
+
+@media screen and (max-width:320px){
+    .section3{
+        padding-left:20px!important;
+        padding-right: 20px !important;
+    }
+    .section3 .container{
+        padding-left:10px!important;
+
+
+    }
+    .section3 h2{
+        font-size: 30px;
+    
+    }
+    .section3 p{
+        font-size: 14px;
+       
+    }
+    .section3 .sec_3box{
+        margin-bottom: 50px !important;
+    }
+}
+
+
+
+/* ////////---------section 4--------\\\\\\\\\\\\\ */
+.section4{
+    padding: 90px 0;
+}
+
+.section4 p{
+    font-family: 'Poppins', sans-serif;
+
+}
+.section4 .card-body{
+    padding-left: 0 !important;
+}
+.section4 .card h3 a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.section4 .card h3 a:hover{
+    color: rgb(239,72,54);
+}
+
+.section4 .card p{
+    font-size: 14px;
+
+}
+.section4 .card i{
+    color: rgb(239,72,54);
+}
+
+
+.section4 .sec_4imgbox{
+    overflow: hidden;
+    position: relative;
+
+}
+.section4 .sec_4imgbox img{
+    transform: scale(1.2);
+
+    transition: transform .3s;
+}
+
+.section4 .sec_4imgbox:hover img{
+        transform: scale(1);
+}
+.section4 .sec_4imgbox:hover .sec_4empty {
+        transform: scale(1);
+
+}
+
+
+.section4 .card .sec_4empty{
+    position: absolute;
+    background-color:rgba(255, 255, 255,0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    transform: scale(0);
+    transition: transform .3s;
+    /* opacity: 0; */
+
+}
+
+.section4 .card .sec_4empty i{
+    color: black;
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 2px;
+    padding: 7px;
+    transition:background-color .3s;
+}
+.section4 .card .sec_4empty i:hover{
+    background-color:rgb(239,72,54);
+    border:1px solid rgb(239,72,54);
+}
+.modal-body{
+    /* position: relative; */
+}
+.modal-header .btn-close{
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    background-color:rgb(239,72,54);
+    opacity: 1 !important;
+    padding:15px!important;
+
+}
+.modal-header .btn-close:hover{
+    background-color:#333;
+
+}
+
+ .modal-body .col h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+ .modal-body  .star i{
+
+    color: rgb(239,72,54);
+
+}
+
+ .modal-body .addcart li a{
+    color: black;
+    background-color: rgb(221,221,221);
+    padding:7px 13px;
+    transition:  background-color .3s;
+
+}
+ .modal-body .addcart li a:hover{
+    background-color:rgb(239,72,54);
+}
+ .modal-body .addcart li.one{
+    background-color: rgb(204,204,204);
+    padding:4px 18px;
+    margin-top: -4px;   
+
+}
+ .modal-body .col .addcart .btn{
+    background-color:rgb(239,72,54);
+    color: white;
+    border-radius: 0 !important;
+    height: 32px;
+    padding: 4px 15px;
+    
+
+}
+ .modal-body .col img{
+    height: 330px !important;
+}
+ .modal-body .col .btn:hover{
+    background-color:black;
+}
+ .modal-body .col .categories li a{
+    color: black;
+
+}  
+ .modal-body .col .categories li a:hover{
+    color: rgb(239,72,54);
+
+}
+
+ .modal-body .col  li i{
+    font-size: 13px;
+    color: white;
+    background-color: rgb(51,51,51);
+    padding: 8px 9px;
+    transition: background-color .4s;
+
+}
+
+ .modal-body .col  li .face{
+    padding: 8px 10px;
+    font-size: 12px;
+
+}
+ .modal-body .col  li .gpluse{
+    padding: 9px 8px;
+    font-size: 11px;
+}
+
+ .modal-body .col  li i:hover{
+    background-color:rgb(239,72,54) ;
+
+}
+
+
+
+
+
+
+/* ////////---------section 5--------\\\\\\\\\\\\\ */
+
+.section5{
+    background-image: url(img/2\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    /* padding: 200px 0; */
+    height: 430px;
+}
+.section5 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+.section5 h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section5 span{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(237,72,54);
+    font-size:100px;
+    font-weight: bold;
+}
+.section5 .sec_5box{
+    /* border: 2px solid red; */
+    left:50%;
+    padding: 80px 10px;
+    margin-top: 30px;
+
+}
+
+@media screen and (max-width:800px) {
+
+    .section5 .sec_5box {
+        left: 30%;
+        padding-left: 80px;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+
+    .section5 .sec_5box {
+        left:0;
+        padding-left:12px;
+        width: 320px !important;
+    }
+    .section5 span{
+        font-size: 65px;
+    }
+    .section5 h2{
+        font-size: 30px;
+      
+    }
+}
+
+/* ////////---------section 6--------\\\\\\\\\\\\\ */
+
+.section6{
+    padding: 100px 0;
+}
+.section6 p{
+    font-family: 'Poppins', sans-serif;
+
+}
+.section6 .card-body{
+    padding-left: 0 !important;
+}
+.section6 .card h3 a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.section6 .card h3 a:hover{
+    color: rgb(239,72,54);
+}
+
+.section6 .card p{
+    font-size: 14px;
+
+}
+.section6 .card i{
+    color: rgb(239,72,54);
+}
+
+
+.section6 .sec_6imgbox{
+    overflow: hidden;
+    position: relative;
+
+}
+.section6 .sec_6imgbox img{
+    transform: scale(1.2);
+
+    transition: transform .3s;
+}
+
+.section6 .sec_6imgbox:hover img{
+        transform: scale(1);
+}
+.section6 .sec_6imgbox:hover .sec_6empty {
+        transform: scale(1);
+
+}
+
+
+.section6 .card .sec_6empty{
+    position: absolute;
+    background-color:rgba(255, 255, 255,0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    transform: scale(0);
+    transition: transform .3s;
+    /* opacity: 0; */
+
+}
+
+.section6 .card .sec_6empty i{
+    color: black;
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 2px;
+    padding: 7px;
+    transition:background-color .3s;
+}
+.section6 .card .sec_6empty i:hover{
+    background-color:rgb(239,72,54);
+    border:1px solid rgb(239,72,54);
+}
+
+
+/* ////////---------section 7--------\\\\\\\\\\\\\ */
+.section7{
+    padding: 70px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/1\ \(4\).jpg);
+    /* height: 400px; */
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+.section7 h2{
+    font-size:48px;
+    font-weight:500;
+}
+.section7 .carousel h2{
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(237,72,54);
+
+}
+
+.section7 p{
+    font-size:14px;
+    color: #bdb9b9;
+}
+
+/* .section7 .carousel-indicators [data-bs-target]{
+    background-color: white!important;
+} */
+
+.section7 .carousel-indicators [data-bs-target].active{
+    background-color: red!important;
+}
+
+
+.section7 .carousel-indicators{
+    bottom: -60px !important;
+}
+
+.section7 .carousel-indicators button{
+    height: 12px !important;
+    width: 12px !important;
+    background-color: white !important;
+    opacity: 100% !important;
+   
+}
+
+
+@media screen and (max-width:800px) {
+    .section7 .sec_7box{
+        width: 520px !important;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .section7 .sec_7box{
+        width: 220px !important;
+    }
+
+    .section7 .carousel img{
+        width: 87px !important;
+        height: 67.66px !important;
+    }
+    
+}
+
+ /* //////////---------footer---------\\\\\\\\\\\\\\  */
+ .footer{
+    background-color: rgb(34,37,40);
+
+ }
+
+ .footer .footer1{
+    background-color: rgb(39,42,45);
+    padding: 80px 0;
+    border-bottom: 1px solid #3c3c3c;
+
+ }
+ .footer .footer1 h3{
+    font-size:30px;
+    font-weight:500;
+ }
+
+.footer .emailbar{
+    background-color: rgb(58,63,66);
+    padding: 8px 30px;
+    
+}
+
+.footer .emailbar .form-control{
+    color: white;
+    font-size: 20px;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.footer .footer1 button i{
+    color: rgb(193,182,150);
+}
+
+    /* ///////-------footer 2-------\\\\\\\\ */
+.footer2{
+    padding: 50px 0;
+    background-color: rgb(34,37,40);
+}
+.footer2 .slash{
+    position: relative;
+}
+
+.footer2 .slash::after{
+   
+    content: "/";
+    position: absolute;
+    right:-15px;
+    top:-5px;
+    font-size: 22px;
+    color: #5f6365;
+
+}
+
+.footer2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #a0a0a0 ;
+}
+
+
+.footer2 li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #a0a0a0;
+    text-decoration: none;
+    transition: color .6s;
+
+
+}
+.footer2 li a i{
+    transition: color .8s;
+
+} 
+
+.footer2 li a:hover{
+    color: red;
+} 
+
+hr{
+    color:#3c3c3c !important;
+    opacity: 1 !important;
+}
+
+.footer2 .f2box{
+    border-right:1px solid #3c3c3c;
+}
+.footer2 li span{
+    color: #ab9f7c;
+}
+
+.footer .upbutton {
+    margin-top: -60px;
+}
+
+.footer .upbutton .btn{
+    background-color:rgb(239,72,54);
+    border-radius: 0 !important; 
+    transition: all .3s;
+
+}
+.footer .upbutton .btn:focus{
+        box-shadow: none !important;
+}
+.footer .upbutton i{
+    color: white;
+}
+.footer .btn:hover{
+    background-color: #333;
+
+}
+
+
+@media screen and (max-width:800px) {
+   
+    .footer .footer1 .emailbar.w-50{
+        width:90% !important;
+    }
+
+    .footer .footer2 .w-75 {
+        width: 90% !important;
+    }
+
+    .footer .footer2 .f2box1{
+    border-right:none !important;
+
+    }
+
+    .footer .footer2 .f2box2{
+    border-left:1px solid #3c3c3c;
+
+    }
+
+    
+}
+
+@media screen and (max-width:320px) {
+    
+
+  .footer  .footer1 h3{
+    font-size:  25px !important;
+  } 
+
+  .footer .footer2 .slash::after{
+        display: none;
+
+   }
+   .footer .footer2 .slash{
+    padding-bottom: 14px ;
+   }
+
+   .footer .footer2 .ulone{
+    padding-left: 10px !important;
+   }
+   .footer .footer2 .col-sm-1{
+    padding-left: 0 !important;
+   }
+
+   .footer .footer2 .col-lg-2{
+    border:none !important;
+
+   }
+    
+}
+
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+
+   
+    /*////////////////-------Shop Page -------\\\\\\\\\\\\\ */
+    
+    
+    
+    
+    /*////////////////------- Shop_section 1 -------\\\\\\\\\\\\\ */
+
+
+
+.Shopsection1{
+    background-image: url(img/3\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: concover;
+    height: 250px;
+}
+
+.Shopsection1 h2{
+    font-size:30px;
+    font-weight:700;
+}
+
+.Shopsection1 ul li a{
+    color: white;
+    transition:color .5s;
+    font-size: 14px;
+}
+.Shopsection1 ul li{
+    font-size: 14px;
+
+}
+
+.Shopsection1 .lihome:hover a{
+    color: red;
+
+}
+
+.Shopsection1 .breadcrumb-item+.breadcrumb-item::before{
+    color: white  !important;
+    /* font-size: 14px !important; */
+}
+
+
+/*////////////////------- Shop_section 2 -------\\\\\\\\\\\\\ */
+
+.Shopsection2{
+    padding: 80px 0;
+
+}
+.Shopsection2 .container{
+    max-width: 1100px !important;
+}
+
+.Shopsection2 li a{
+    color: black;
+    font-size: 14px;
+    transition:color .3s;
+
+
+}
+.Shopsection2 .filbutton:hover {
+    background-color:rgb(237,72,54);
+    color: white  !important;
+
+}
+.nav-link:focus{
+    color: black !important;
+}
+
+
+.Shopsection2 .nav-pills .nav-link{
+    border:1px solid rgb(237,72,54);
+    border-radius: 0 !important;
+    transition: all .4s;
+
+
+}
+
+.Shopsection2 .nav-pills .nav-link.active{
+    background-color: rgb(237,72,54);
+
+}
+.Shopsection2 .nav-link:hover {
+    color:rgb(237,72,54) ;
+}
+
+
+
+
+/* /////////------row 2------\\\\\\\\\ */
+
+.Shopsection2 h3{
+    font-size: 18px;
+    position: relative;
+
+}
+.Shopsection2  hr{
+    width: 30px!important;
+    margin-top: 0!important;
+    color: red !important;
+}
+
+.Shopsection2  .sortby a:hover {
+    color: red;
+
+}
+.Shopsection2 .colorlist a:hover {
+    color: red;
+}
+
+.Shopsection2 .colorlist li a{
+    position: relative;
+}
+
+.Shopsection2 .colorlist li a:before {
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    content: "";
+    border-radius: 50%;
+}
+.Shopsection2 .colorlist li:nth-child(2) a:before {
+    background: #A52A2A;
+}
+.Shopsection2 .colorlist li:nth-child(3) a:before {
+    background: #FFA500;
+}
+.Shopsection2 .colorlist li:nth-child(4) a:before {
+    background: #FF0000;
+}
+.Shopsection2 .colorlist li:nth-child(5) a:before {
+    background: #FFFF00;
+}
+
+.Shopsection2 .ptags{
+    width: 95%;
+}
+
+.Shopsection2 .ptags li{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    transition: background-color .4s;
+
+}
+
+.Shopsection2 .ptags li:hover {
+    background-color: rgb(237,72,54);
+    border: 1px solid rgb(237,72,54);
+
+}
+.Shopsection2 .ptags li:hover a {
+    color: white;
+
+}
+
+
+.Shopsection2 form form-range{
+    border: medium;
+    height: 10px !important;
+
+
+}
+
+
+.Shopsection2 .btn-outline-danger{
+    border-color:rgb(237,72,54) !important;
+    border-radius: 0 !important;
+    font-size: 14px ;
+}
+.Shopsection2 .btn-outline-danger:hover{
+   background-color:rgb(237,72,54) !important;
+   color: white !important;
+
+}
+.Shopsection2 .col-lg-8 {
+    font-size: 14px;
+
+}
+
+/* /////////------row 3------\\\\\\\\\ */
+
+
+.Shopsection2 .card-body{
+    padding-left: 0 !important;
+}
+.Shopsection2 .card h3 a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.Shopsection2 .card h3 a:hover{
+    color: rgb(239,72,54);
+}
+
+.Shopsection2 .card p{
+    font-size: 14px;
+
+}
+.Shopsection2 .card i{
+    color: rgb(239,72,54);
+}
+
+
+.Shopsection2 .sec_6imgbox{
+    overflow: hidden;
+    position: relative;
+
+}
+.Shopsection2 .sec_6imgbox img{
+    transform: scale(1.2);
+
+    transition: transform .3s;
+}
+
+.Shopsection2 .sec_6imgbox:hover img{
+        transform: scale(1);
+}
+.Shopsection2 .sec_6imgbox:hover .sec_6empty {
+        transform: scale(1);
+
+}
+
+
+.Shopsection2 .card .sec_6empty{
+    position: absolute;
+    background-color:rgba(255, 255, 255,0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    transform: scale(0);
+    transition: transform .3s;
+    /* opacity: 0; */
+
+}
+
+.Shopsection2 .card .sec_6empty i{
+    color: black;
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 2px;
+    padding: 7px;
+    transition:background-color .3s;
+}
+.Shopsection2 .card .sec_6empty i:hover{
+    background-color:rgb(239,72,54);
+    border:1px solid rgb(239,72,54);
+}
+
+
+
+
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+
+   
+    /*////////////////-------Product Page -------\\\\\\\\\\\\\ */
+    
+    
+    
+    
+    /*////////////////------- Pd_section 2 -------\\\\\\\\\\\\\ */
+
+.Pdsection2{
+    padding: 100px 0;
+}
+
+.Pdsection2 .container{
+    max-width: 1130px !important;
+}
+
+.Pdsection2 .carousel-indicators li{
+    top:200px;
+}
+.Pdsection2 .proslide{
+    /* overflow-x:hidden; */
+
+}
+
+.Pdsection2 .col-lg-6{
+    /* overflow-x:hidden; */
+}
+
+/* .Pdsection2 .carousel-indicators li{
+    list-style: none;
+
+    height: 130px;
+    width: 130px;
+   background-color: white;
+    position: relative;
+    margin: 10px;
+    opacity: 1 !important;
+    
+} */
+.Pdsection2 .nav li {
+    list-style: none;
+/*    border: 2px solid black;*/
+    height: 170px;
+    width: 170px;
+/*    background-color: white;*/
+    /* position: relative; */
+/*    margin: 10px;*/
+    opacity: 1 !important;
+    
+}
+
+.Pdsection2 .nav-link{
+    padding: 8px !important;
+}
+    
+.Pdsection2 .carousel-indicators img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+
+        /* //////-------col 2------\\\\\\\ */
+
+.Pdsection2  .pdrightside h3{
+    font-size: 28px;
+}
+
+.Pdsection2  .pdrightside i{
+    color:rgb(239,72,54);
+    font-size: 13px;
+
+}
+.Pdsection2  .pdrightside  p{
+    font-size: 14px;
+}
+
+
+
+.Pdsection2 .addcart li a{
+    color: black;
+    background-color: rgb(221,221,221);
+    padding:4px 13px;
+    transition:  background-color .3s;
+
+}
+.Pdsection2 .addcart li a:hover{
+    background-color:rgb(239,72,54);
+}
+.Pdsection2 .addcart li.one{
+    background-color: rgb(204,204,204);
+    padding:3px 20px;
+    margin-top: -3px;   
+
+}
+.Pdsection2  .addcart .btn{
+    background-color:rgb(239,72,54);
+    color: white;
+    border-radius: 0 !important;
+    height: 32px;
+    padding: 4px 15px;
+    
+
+}
+.Pdsection2  .addcart .btn:hover{
+    background-color:black;
+
+
+}
+
+.Pdsection2 .categories li a {
+    color: black;
+    transition: all .3s;
+}
+.Pdsection2 .categories li a:hover{
+    color:rgb(239,72,54);
+
+}
+
+        /* /////////-----colorplate------\\\\\\\ */
+
+.Pdsection2 .colorplate li{
+    display: inline-block; 
+    background-color: rgb(153,153,153);
+    height:28px;
+    width: 28px;
+    outline: 2px solid rgb(153,153,153);
+    outline-offset: 2px;
+    
+}
+.Pdsection2 .colorplate ul li:nth-child(2) {
+    background: #888;
+    outline-color: #888;
+}
+
+.Pdsection2 .colorplate ul li:nth-child(3) {
+    background: #777;
+    outline-color: #777;
+}
+
+.Pdsection2 .colorplate ul li:nth-child(4) {
+    background: #666;
+    outline-color: #666;
+}
+
+        /* /////////-----produtsize------\\\\\\\ */
+.Pdsection2 .produtsize li{
+    display:inline-block; 
+}
+
+.Pdsection2 .produtsize li a{
+    text-decoration: none;
+    display: block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #ef4836;
+    color: #ef4836;
+}   
+
+        /* /////////-----produtsize------\\\\\\\ */
+       
+.Pdsection2 .share  li i{
+    font-size: 13px;
+    color: white;
+    background-color: rgb(51,51,51);
+    padding: 8px 9px;
+    transition: background-color .4s;
+
+}
+
+.Pdsection2 .share li .face{
+    padding: 8px 10px;
+    font-size: 12px;
+
+}
+.Pdsection2 .share  li .gpluse{
+    padding: 9px 8px;
+    font-size: 11px;
+}
+
+.Pdsection2 .share  li i:hover{
+    background-color:rgb(239,72,54) ;
+
+}
+
+
+
+    /*////////////////------- Pd_section 3 -------\\\\\\\\\\\\\ */
+
+
+    .Pdsection3{
+        padding: 60px 0;
+    }
+    
+    .Pdsection3 .container{
+        max-width: 1130px !important;
+    }
+    .Pdsection3 .tab-pane p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .Pdsection3 .nav-item {
+        /* border: 1px solid #e5e5e5; */
+
+    }
+    .Pdsection3 .nav-item .nav-link{
+        border-radius: 0 !important;
+
+    }
+    .Pdsection3 .nav-item a{
+       color: black;
+       font-size:14px ;
+        border: 1px solid #e5e5e5;
+
+
+    }
+    
+    .Pdsection3 .nav-item .nav-link.active{
+        background-color:rgb(239,72,54);
+
+    }
+
+    .Pdsection3 .nav-item .nav-link:hover{
+        background-color:rgb(239,72,54);
+
+    }
+
+
+                /* ////////------tab-2--------\\\\\\\\ */
+
+    .Pdsection3 .accordion-button::after{
+        background-image: url(img/imagePluse.png)!important;
+    
+    }
+    .Pdsection3  .accordion-button:not(.collapsed)::after{
+        background-image: url(img/imageMinus.png)!important;
+    }
+    
+    .Pdsection3 .accordion-button{
+        color: white !important;
+       
+    }
+
+    .Pdsection3  .accordion-button.collapsed{
+
+            background-color: rgb(237,72,54) !important;
+    }
+    .Pdsection3 .accordion-button:not(.collapsed){
+        background-color: rgb(237,72,54) !important;
+
+    }
+    .Pdsection3 .accordion-collapse{
+        border: 1px solid rgb(237,72,54);
+    }
+    .Pdsection3 .accordion-header .accordion-button{
+        font-family: 'Poppins', sans-serif !important;
+
+        font-size: 13px !important;
+        
+
+    }
+    .Pdsection3 .accordion-item .accordion-button {
+        border-radius: 0 !important;
+       
+    }
+        
+
+                /* ////////------tab-3--------\\\\\\\\ */
+ 
+
+.Pdsection3 .tab-pane h3 a{
+        text-decoration: none;
+        font-size:16px;
+        color: black;
+        font-weight: 400;
+}
+.Pdsection3 .tab-pane h3 a:hover{
+   color:rgb(237,72,54) ;
+
+}
+.Pdsection3 .tab-pane span{
+    font-size: 12px;
+}
+
+.Pdsection3 .tab-pane .star i{
+   color:rgb(237,72,54) ;
+}
+
+            /* /////----review sec---\\\\\\ */
+
+ .Pdsection3 .reviewsec h4{
+    font-size:18px ;
+ }
+ .Pdsection3 .reviewsec thead{
+    border-color: #dee2e6 !important;
+ }
+
+ .Pdsection3 .reviewsec  th,tr{
+    font-size: 14px;
+    font-weight: 500;
+ }
+ 
+
+ .Pdsection3 .reviewsec tr td input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    -webkit-transition: 0.5s all linear;
+    transition: 0.5s all linear;
+    outline: none;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+    background: #ef4836;
+}
+.Pdsection3 .reviewsec tr td input:checked {
+    border: 3px solid #ef4836;
+    background-color: #fff;
+}
+
+            /* /////----form---\\\\\\ */
+
+.Pdsection3 form label{
+    font-size: 18px;
+    margin-bottom: 8px;
+
+}
+
+.Pdsection3 .form-control{
+    padding: 12px 10px !important;
+    border-radius:0 !important;
+}
+.Pdsection3 .form-control::placeholder{
+    font-size: 14px !important;
+}
+
+.Pdsection3 textarea{
+    padding: 90px 0 !important;
+}
+
+.Pdsection3 form .btn{
+    border-radius: 0 !important;
+    background-color: rgb(237,72,54);
+    color: white;
+    padding: 10px 50px !important;
+    font-size: 16px;
+
+
+}
+.form-control:focus{
+    border-color:#ced4da!important;
+}
+
+.Pdsection3 form .btn:hover{
+    background-color: #333;
+    
+
+}
+.Pdsection3 .col-md-12{
+    padding: 0 !important;
+}
+
+/* @media screen and (max-width:320px){
+    .table{
+        width:90% !important;
+    }
+    
+} */
+
+
+
+
+    /*////////////////------- Pd_section 4 -------\\\\\\\\\\\\\ */
+
+.Pdsection4{
+    padding: 40px 0;
+}
+
+.Pdsection4 .container{
+    max-width: 1130px !important;
+}
+.Pdsection4 h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Pdsection4 .card-body{
+    padding: 0;
+}
+.Pdsection4 .Pdsec4imgbox{
+    overflow: hidden;
+    position: relative;
+}
+.Pdsection4 .Pdsec4imgbox img{
+    transition: transform .3s;
+
+}
+.Pdsection4 .Pdsec4imgbox .empty{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(250, 45, 1,0.2);
+    top: 0;
+    transform: translatey(-380px);
+    transition: all .6s ease-in-out;
+}
+
+.Pdsection4 .card:hover .empty{
+    transform: translatey(380px);
+    
+
+}
+
+
+.Pdsection4 .Pdsec4imgbox:hover img{
+        transform: scale(1.1);
+}
+
+
+.Pdsection4 .card-body h3 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    transition: all .3s;
+}
+
+.Pdsection4 .card-body h3 a:hover{
+    color: rgb(237,72,54) ;
+}
+
+.Pdsection4 .card-body p{
+    font-size: 14px;
+}
+.Pdsection4 .card-body a i{
+
+    border: 1px solid black;
+    color: black;
+    border-radius: 50%;
+    padding: 4px;
+    transition: all .5s;   
+}
+.Pdsection4 .card-body i:hover{
+    background-color:rgb(237,72,54);
+    border: 1px solid rgb(237,72,54);
+    color: white;
+}
+
+
+
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+
+   
+    /*////////////////-------Cart Page -------\\\\\\\\\\\\\ */
+    
+    
+    
+    
+    /*////////////////------- Ca_section 2 -------\\\\\\\\\\\\\ */
+
+
+.Casection2 .container{
+    max-width: 1130px !important;
+
+}
+.table,th,td{
+    border: 2px solid #b7b7b7 !important;
+}
+.Casection2{
+
+    padding: 70px 0;
+}
+.table{
+    /* border: 1px solid ;    !important; */
+}
+.Casection2 table th{
+    font-weight: 400;
+    height: 60px;
+}
+.Casection2 table td a{
+    text-decoration: none;
+    color: #333;
+    transition: all .3s;
+    font-size: 16px;
+}
+.Casection2 table td a:hover{
+    color:rgb(237,72,54) ;
+
+}
+
+.Casection2 table .button li a{
+    color: black;
+    background-color: rgb(221,221,221);
+    padding:4px 13px;
+    transition:  background-color .3s;
+
+}
+.Casection2 table .button li a:hover{
+    background-color:rgb(239,72,54);
+}
+.Casection2 table .button li.one{
+    background-color: rgb(204,204,204);
+    padding:2px 20px;
+    margin-top: -1px;   
+
+}
+
+.Casection2 table .btn-close{
+    background: transparent;
+    opacity: 1 !important;
+
+}
+.Casection2 table .btn-close{
+    transition: all .3s;
+}
+
+
+.Casection2 table .btn-close:hover{
+        color: red ;
+}
+
+
+
+    /*////////////////------- Ca_section 3 -------\\\\\\\\\\\\\ */
+.Casection3{
+                padding-bottom: 80px;
+}
+
+.Casection3 .container{
+    max-width: 1130px !important;
+
+}
+.Casection3 .update li{
+    list-style-type: none;
+}
+.Casection3 .update li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(153,153,153);
+    display: block;
+    padding: 13px 30px; 
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.Casection3 .update li a:hover{
+    background-color: #333;
+    color: white;
+}
+
+.Casection3 .update h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Casection3 .update p{
+    font-size: 14px;
+}
+
+.Casection3 .update form input{
+    padding: 8px 0px 8px 20px;
+    border:1px solid #d7d7d7 !important;
+}
+.Casection3 .update form input::placeholder{
+    font-size: 14px;
+}
+.Casection3 .update form input:focus{
+    /* border:1px solid #d7d7d7 !important; */
+    outline:none !important;
+
+}
+
+.Casection3 .update form .btn{
+    background-color:rgb(239,72,54);
+    color: white; 
+    transition: all .3s;
+    font-size: 14px;
+    border-radius: 0 !important;
+    padding: 10px 30px;
+
+
+}
+.Casection3 .update form .btn:hover{
+    background-color:#333;
+    
+}
+
+.Casection3 .carttota h3{
+    font-size: 30px;
+    position: relative;
+}
+
+.Casection3 .carttota h3::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 200px;
+    background-color: #d7d7d7;
+    bottom:-10px;
+    right:0 ;
+}
+
+.Casection3 .carttota h3::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 250px;
+    background-color:#a7a7a7;
+    bottom:-15px;
+    right:0 ;
+}
+
+
+.Casection3 .carttota p{
+    margin-bottom: 0 !important;
+}
+
+.Casection3 .carttota  .btn{
+    background-color:rgb(239,72,54);
+    color: white; 
+    transition: all .3s;
+    font-size: 14px;
+    border-radius: 0 !important;
+    padding: 10px 30px;
+
+
+}
+.Casection3 .carttota  .btn:hover{
+    background-color:#333;
+    
+}
+
+
+@media screen and (max-width:320px){
+
+    .Casection3 .update form input{
+        padding: 0px 0px 0px 20px !important;
+        height: 45px !important;
+        width: 45%;
+    }
+
+    .Casection3 .update form .btn{
+        font-size: 14px;
+        border-radius: 0 !important;
+        padding: 10px 30px;
+        height: 45px !important;
+
+   }
+
+}
+
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+
+   
+    /*////////////////-------Blog Page -------\\\\\\\\\\\\\ */
+    
+    
+    
+    
+    /*////////////////------- Blog_section 2 -------\\\\\\\\\\\\\ */
+
+    .blogsection2{
+        padding: 50px 0;
+    }
+
+
+    .blogsection2 .container{
+        max-width: 1130px !important;
+    
+    }
+    .blogsection2 .card{
+
+        border-radius: 10px;
+    }
+    .blogsection2 .card img{
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 250px;
+        width: 100%;
+
+    }
+    .blogsection2 .blogimgbox{
+        position: relative;
+    }
+    .blogsection2 .janu{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: white;
+        height: 65px;
+        width: 55PX;
+        outline: 2px solid white;
+        outline-offset: 3px; 
+
+    }
+
+    .blogsection2 .janu li{
+        list-style-type: none;
+        font-size: 12px;
+        font-weight: 700;
+    
+              
+    }
+    .blogsection2 .janu ul li:first-child {
+        color: #ff9000;
+        font-size: 18px;
+    }
+
+    .blogsection2 .card-body li{
+        list-style-type: none;
+
+    }
+    .blogsection2 .card-body li a{
+        text-decoration: none;
+        color: #888;
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    .blogsection2 .card-body h3{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+
+    }
+    .blogsection2 .card-body h3 a{
+        text-decoration: none;
+        color: black;
+        transition: all .3s;
+
+    }
+    .blogsection2 .card-body h3 a:hover{
+        color: #ef4836;
+        
+    }
+    .blogsection2 .card-body p{
+        font-size: 14px;  
+        line-height: 24px;
+
+    }
+
+    .blogsection2 .pagenum ul li{
+            display: inline-block;
+    }
+
+    .blogsection2 .pagenum ul li a{
+        /* border: 1px solid red;
+        padding: 10px; */
+        text-decoration: none;
+        font-size: 14px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        border: 1px solid #ef4836;
+        color: #ef4836;
+        display: inline-block;
+        padding-left: 10px;
+        transition:  all .3s;
+    }
+    .blogsection2 .pagenum ul li a:hover{
+        background-color:#ef4836 ;
+        color: white;
+
+    }
+    .blogsection2 .pagenum ul li a.active{
+       background-color:#ef4836 ;
+        color: white !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+/* /////////--------XXXXXXXXXXXX------XXXXXXXXXXX--------\\\\\\\\ */
+
+
+   
+    /*////////////////-------Contaact Page -------\\\\\\\\\\\\\ */
+    
+    
+    
+    
+    /*////////////////------- Con_section 3 -------\\\\\\\\\\\\\ */
+.Consection3{
+    padding: 80px 0;
+}
+
+.Consection3 .container{
+    max-width: 1130px !important;
+
+}
+
+/*  //////---------left side--------\\\\\\\\*/
+
+
+.Consection3 .form-control{
+    padding: 13px 0 13px 20px;
+    border-radius:0 !important
+}
+.Consection3 .form-control:focus{
+        border-color: #ced4da!important;
+} 
+
+
+.Consection3 form .btn{
+    border-radius: 0 !important;
+    background-color: rgb(237,72,54);
+    color: white;
+    padding: 8px 30px !important;
+    font-size: 14px;
+
+
+}
+.Consection3 form .btn:hover{
+    background-color: #333;
+    
+
+}
+
+
+/*  //////---------right side--------\\\\\\\\*/
+
+
+.Consection3 .addemapho li{
+
+    list-style-type: none;
+
+}
+.Consection3 .addemapho li i{
+    font-size: 40px;
+    color: #999;
+}
+
+.Consection3 .addemapho li h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Consection3 .addemapho li p{
+    font-size:14px ;
+    font-weight: 400;
+}
+
+
+
+
+
+
